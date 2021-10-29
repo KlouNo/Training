@@ -3,14 +3,16 @@ package com.Ivanov;
 public class Main {
     public static void main(String[] args) {
 
+        Person bob = new Person(23, Personality.MALE);
+        System.out.println(bob.getAge());
+        bob.talk();
+        Person ann = new Person(21, Personality.FEMALE);
+        System.out.println(ann.getAge());
+        ann.talk();
 
-
-        BMW m3 = new BMW(true, "M3 ",5.6, 1200.5,
-                "Blue ", true);
-        m3.startEngine();
-
-
-
+        UFO sqed = new UFO(49, Personality.ALIEN);
+        System.out.println(sqed.getAge());
+        sqed.talk();
     }
 }
 
