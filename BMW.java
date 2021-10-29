@@ -9,7 +9,7 @@ public class BMW extends Cars {
         super(model, Razgon, weight, color, isWork);
         this.isMPerformance = isMPerformance;
         this.MaxSpeed = MaxSpeed;
-//        System.out.println(toString());
+
 
 }
 
@@ -23,4 +23,8 @@ public class BMW extends Cars {
     }
 
 
+    @Override
+    void startEngine() {
+        System.out.println("vrrrrr....");
+    }
 }

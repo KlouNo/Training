@@ -1,7 +1,7 @@
 package com.Ivanov;
 
 
-public class Cars {
+public abstract class Cars {
 
     private String model;
     protected int MaxSpeed;
@@ -21,6 +21,8 @@ public class Cars {
         System.out.println(toString());
 
     }
+
+    abstract void startEngine();
 
 
     public String toString(){
